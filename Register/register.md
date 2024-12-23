@@ -3,7 +3,7 @@
 [bcrypt](https://pypi.org/project/bcrypt/)
 
 <details>
-  <summary>1. Code Explained by ChatGPT</summary>
+  <summary>1. Code Explained by ChatGPT(bcrypt)</summary>
 
   ### Code Explanation
 
@@ -84,4 +84,85 @@ For example, from the official bcrypt documentation:
 - `bcrypt.gensalt(rounds=12)` — This method generates a salt with the specified cost factor (`rounds`), where a higher number of rounds makes the hashing process slower and more secure.
   
 
+</details>
+
+
+<details>
+  <summary>2. what are the npm basic commands</summary>
+
+Here are some of the most commonly used **npm** (Node Package Manager) commands, which are essential for managing dependencies and running scripts in a Node.js environment:
+
+### 1. **Initialize a Node.js Project**
+   - `npm init`: Initializes a new Node.js project and creates a `package.json` file, which will contain metadata about the project (dependencies, scripts, etc.). You'll be prompted for some information like project name, version, description, etc.
+   - `npm init -y`: Initializes a new Node.js project with default values, skipping the prompts.
+
+### 2. **Installing Dependencies**
+   - `npm install <package-name>` (or `npm i <package-name>`): Installs the specified package and adds it to your `node_modules` directory. If no package is specified, it installs all dependencies listed in `package.json`.
+   - `npm install`: Installs all the dependencies listed in the `package.json` file.
+   - `npm install <package-name>@<version>`: Installs a specific version of a package (e.g., `npm install lodash@4.17.21`).
+
+### 3. **Installing Development Dependencies**
+   - `npm install <package-name> --save-dev` (or `npm i <package-name> -D`): Installs the specified package as a development dependency, meaning it's used only in the development environment (not for production).
+   - `npm install <package-name> --save-prod` (or `npm i <package-name> -P`): Installs the specified package as a production dependency.
+
+### 4. **Updating Dependencies**
+   - `npm update`: Updates all the dependencies in the `node_modules` directory to their latest versions based on the version rules defined in `package.json`.
+
+### 5. **Uninstalling Packages**
+   - `npm uninstall <package-name>` (or `npm remove <package-name>`): Uninstalls the specified package and removes it from `node_modules` and `package.json`.
+
+### 6. **Listing Installed Packages**
+   - `npm list`: Lists all the installed packages in the current project.
+   - `npm list --global`: Lists all globally installed packages.
+
+### 7. **Viewing Package Information**
+   - `npm info <package-name>`: Provides information about a specific package, such as version, description, and dependencies.
+   - `npm outdated`: Lists the packages that are outdated and show the latest available versions.
+
+### 8. **Managing Package Versions**
+   - `npm version <version>`: Updates the version of your project and commits the changes. You can specify major, minor, or patch versions (e.g., `npm version patch` or `npm version 1.0.0`).
+   - `npm version` (without arguments): Displays the current version of your project.
+
+### 9. **Running Scripts**
+   - `npm run <script-name>`: Executes a custom script defined in the `scripts` section of `package.json`. For example, if you have a script like `"start": "node app.js"`, you can run it with `npm run start`.
+   - `npm run test`: Runs the test script, which is typically defined to run tests for your application.
+
+### 10. **Creating a Package Lock File**
+   - `npm install --package-lock`: Generates a `package-lock.json` file that locks the versions of the installed dependencies, ensuring consistent installs across different environments.
+
+### 11. **Global Installation**
+   - `npm install -g <package-name>`: Installs a package globally on your system. This is typically used for tools that you want to use across different projects, like the `nodemon` tool or the `create-react-app` CLI.
+   - `npm list -g`: Lists all globally installed packages.
+   - `npm uninstall -g <package-name>`: Uninstalls a globally installed package.
+
+### 12. **Checking npm Version**
+   - `npm --version` or `npm -v`: Displays the installed version of npm.
+
+### 13. **Clean Cache**
+   - `npm cache clean --force`: Clears the npm cache (useful if you encounter issues with the cache or need to reset it).
+
+### 14. **Audit Packages**
+   - `npm audit`: Scans the project's dependencies for known vulnerabilities and provides a report.
+   - `npm audit fix`: Automatically fixes any vulnerabilities in your dependencies (if possible).
+
+These are the foundational commands that will allow you to work effectively with npm. For more advanced operations or specific use cases, the [official npm documentation](https://docs.npmjs.com/) provides additional insights.
+  
+</details>
+
+<details>
+  <summary>n. ---</summary>
+
+  
+</details>
+
+<details>
+  <summary>n. ---</summary>
+
+  
+</details>
+
+<details>
+  <summary>n. ---</summary>
+
+  
 </details>
