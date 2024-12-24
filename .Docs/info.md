@@ -53,3 +53,4 @@ These applications showcase how AI audio techniques can revolutionize both milit
 20. **智慧城市**：加強城市噪音監測、辨識槍聲或透過聲學感測偵測交通相關事件。
 
 這些應用展示了人工智慧音訊技術如何徹底改變軍事和工業領域，提高效率、安全性和精確度。
+
